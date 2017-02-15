@@ -1,0 +1,33 @@
+# Global + IDE Stuff
+.DS_Store
+.sass-cache
+.settings/**
+settings.xml
+.project
+/web.config
+"Icon\r"
+WEB-INF/**
+*.cache.*
+.idea
+Icon?
+# Logs
+logs/**
+tests/logs/**
+tests/results/**
+# Global Dependencies
+coldbox/*
+testbox/*
+node_modules/*
+bower_components/*
+# Exclude all Modules Except Contentbox
+modules/*
+!modules/contentbox
+!modules/contentbox-admin
+!modules/contentbox-ui
+# Modules_App 
+modules_app/databoss/logs/*
+
+modules/contentbox/themes/default/bower_components/*
+modules/contentbox/themes/default/node_modules/*
+modules/contentbox/themes/gator/bower_components/*
+modules/contentbox/themes/gator/node_modules/*
